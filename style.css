@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}  
+
+@media screen and (max-width: 500px) {
+
+    .container {
+        background-image: url("https://preview.redd.it/ttnvy9t1o3531.png?width=800&format=png&auto=webp&s=7449f763e50a8c061b5910945c390e574cbef766");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    header {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header h1 {
+        font-family: arcadeclassic;
+        margin-left: 10px;
+        font-size: 50px;
+        background: -webkit-linear-gradient(red, rebeccapurple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #nav {
+        background: linear-gradient(to left, red, darkblue);
+        height: 100vh;
+        width: 200px;
+        position: relative;
+        right: -100%;
+        transition: 0.5s ease-in-out;
+    }
+    
+    #nav.active {
+        right: 0%;
+    }
+    
+    button {
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 5%;
+        color: white;
+        z-index: 1;
+    }
+
+    #inner {
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 35%;
+        color: white;
+    }
+
+    }
+    
+    #nav ul li {
+        padding: 3rem 2rem 2rem 1rem;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    #nav ul li a {
+        background: -webkit-linear-gradient(blue, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+    }
+    
+    .heading {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .heading img {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .heading h1 {
+        color: yellow;
+        font-size: 25px;
+        font-family: fantasy;
+    }
+
+    
+    .img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    #sectiion {
+        width: 100%;
+        height: 130vh;
+        background-color: rebeccapurple;
+        background-image: url("https://wallpaperaccess.com/full/42337.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #sectiion h1 {
+        text-align: center;
+        font-family: fantasy;
+        color: yellow;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        border: 2px solid green;
+        padding: 2rem;
+        margin-bottom: 20px;;
+    }
+
+    .card h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        color: yellowgreen;
+        font-family: fantasy;
+    }
+
+    .card p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        color: whitesmoke;
+        font-family: fantasy;
+    }
+
+    .card a {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        color: yellowgreen;
+        font-family: fantasy;
+        text-decoration: none;
+    }
+
+    #footer {
+        background-color: black;
+        height: 20vh;
+        width: 100%;
+    }
+    
+
+    .descript p {
+        text-align: center;
+        font-size: 10px;
+        color: whitesmoke;
+        font-family: fantasy;
+    }
+}
